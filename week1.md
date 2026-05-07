@@ -14,3 +14,11 @@
 - Its ideal to use just let and const rather than var
 - let and const are both block scoped, but let can be reassigned and const cannot
 - debugged TypeErrors and ReferenceErrors
+
+## Day 3
+
+- Functions as a feature that stores behaviour, function declaration and calling
+- Distinction between parameters and arguments
+- Function expressions with variable, and arrow functions
+- return vs console.log distinction
+- .gitignore to let git know which file to ignore and git diff --staged to view the staged files before commiting

@@ -22,3 +22,12 @@
 - Function expressions with variable, and arrow functions
 - return vs console.log distinction
 - .gitignore to let git know which file to ignore and git diff --staged to view the staged files before commiting
+
+## Day 4
+
+- Studied Arrays and indexes
+- Started with objects, key-value pairs, dot and bracket notations
+- Modifying arrays and objects, destructuring and how it differs for both the data structures
+- Spread operators
+- git stash for when you want to temporarily save uncommitted change. It also cleans the working directory so you can switch branch or pull without conflicts.
+- git ammend to change the commit message before pushing

@@ -31,3 +31,13 @@
 - Spread operators
 - git stash for when you want to temporarily save uncommitted change. It also cleans the working directory so you can switch branch or pull without conflicts.
 - git ammend to change the commit message before pushing
+
+## Day 5
+
+- Array methods help to modify and loop through the data, which was previously done in a traditional for loop
+- .map() runs a function on every item and returns a new ARRAY of THE SAME LENGTH, map = transform
+- .filter() runs a function on every item and returns a new array containing only the items where the condition was true, filter = keep / discard
+- .reduce() takes an array and reduces it down to a single value, which could be a number / object or any single value.
+- It has 2 components accumulator/count and item. The accumulator is the running total that updates each iteration, and item is the current item
+- Practiced git branching to create a copy of the code to experiment without affecting the main branch
+

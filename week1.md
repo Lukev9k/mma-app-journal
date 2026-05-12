@@ -41,3 +41,12 @@
 - It has 2 components accumulator/count and item. The accumulator is the running total that updates each iteration, and item is the current item
 - Practiced git branching to create a copy of the code to experiment without affecting the main branch
 
+## Day 6
+
+- Synchronous vs Asynchronous — sync waits for each line, async starts a task and moves on, comes back when done
+- Callbacks — the old way, pass a function to run when the task finishes, gets messy with nesting
+- Promises — represent a future value, three states: pending, fulfilled, rejected
+- resolve / reject — resolve flips a Promise to fulfilled with a value, reject flips it to rejected with an error
+- async/await — modern syntax built on Promises, reads like synchronous code, await pauses inside the function only
+- try/catch — intercepts errors from rejected Promises instead of crashing, you'll wrap every Supabase call in this
+- The Supabase pattern — every DB call returns { data, error }, always check error before using data
